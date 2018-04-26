@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A1D2A472091718700D34117 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1D2A462091718700D34117 /* AppDelegate.m */; };
+		3A1D2A4A2091718700D34117 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1D2A492091718700D34117 /* ViewController.m */; };
+		3A1D2A4D2091718700D34117 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A1D2A4B2091718700D34117 /* Main.storyboard */; };
+		3A1D2A4F2091718800D34117 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A1D2A4E2091718800D34117 /* Assets.xcassets */; };
+		3A1D2A522091718800D34117 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A1D2A502091718800D34117 /* LaunchScreen.storyboard */; };
+		3A1D2A552091718800D34117 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1D2A542091718800D34117 /* main.m */; };
+		3A1D2A5F2091718800D34117 /* ALRouterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1D2A5E2091718800D34117 /* ALRouterTests.m */; };
+		3A1D2A6A2091718800D34117 /* ALRouterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1D2A692091718800D34117 /* ALRouterUITests.m */; };
+		3A1D2A7A209171CE00D34117 /* ALRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1D2A79209171CE00D34117 /* ALRouter.m */; };
+		3A1D2A7C2091722C00D34117 /* ALRouter.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3A1D2A7B2091722C00D34117 /* ALRouter.plist */; };
+		3A1D2A82209172A600D34117 /* GoodsDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1D2A81209172A600D34117 /* GoodsDetailController.m */; };
+		3A1D2A862091739700D34117 /* GoodsListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1D2A852091739700D34117 /* GoodsListController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A1D2A5B2091718800D34117 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A1D2A3A2091718700D34117 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A1D2A412091718700D34117;
+			remoteInfo = ALRouter;
+		};
+		3A1D2A662091718800D34117 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A1D2A3A2091718700D34117 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A1D2A412091718700D34117;
+			remoteInfo = ALRouter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A1D2A422091718700D34117 /* ALRouter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ALRouter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A1D2A452091718700D34117 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3A1D2A462091718700D34117 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3A1D2A482091718700D34117 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3A1D2A492091718700D34117 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3A1D2A4C2091718700D34117 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3A1D2A4E2091718800D34117 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A1D2A512091718800D34117 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3A1D2A532091718800D34117 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A1D2A542091718800D34117 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3A1D2A5A2091718800D34117 /* ALRouterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ALRouterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A1D2A5E2091718800D34117 /* ALRouterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALRouterTests.m; sourceTree = "<group>"; };
+		3A1D2A602091718800D34117 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A1D2A652091718800D34117 /* ALRouterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ALRouterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A1D2A692091718800D34117 /* ALRouterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALRouterUITests.m; sourceTree = "<group>"; };
+		3A1D2A6B2091718800D34117 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A1D2A78209171CE00D34117 /* ALRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALRouter.h; sourceTree = "<group>"; };
+		3A1D2A79209171CE00D34117 /* ALRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALRouter.m; sourceTree = "<group>"; };
+		3A1D2A7B2091722C00D34117 /* ALRouter.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ALRouter.plist; sourceTree = "<group>"; };
+		3A1D2A80209172A600D34117 /* GoodsDetailController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoodsDetailController.h; sourceTree = "<group>"; };
+		3A1D2A81209172A600D34117 /* GoodsDetailController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoodsDetailController.m; sourceTree = "<group>"; };
+		3A1D2A842091739700D34117 /* GoodsListController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoodsListController.h; sourceTree = "<group>"; };
+		3A1D2A852091739700D34117 /* GoodsListController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoodsListController.m; sourceTree = "<group>"; };
+		3A1D2A88209176FD00D34117 /* ALRouterPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALRouterPrefixHeader.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A1D2A3F2091718700D34117 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A1D2A572091718800D34117 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A1D2A622091718800D34117 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A1D2A392091718700D34117 = {
+			isa = PBXGroup;
+			children = (
+				3A1D2A442091718700D34117 /* ALRouter */,
+				3A1D2A5D2091718800D34117 /* ALRouterTests */,
+				3A1D2A682091718800D34117 /* ALRouterUITests */,
+				3A1D2A432091718700D34117 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A1D2A432091718700D34117 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A1D2A422091718700D34117 /* ALRouter.app */,
+				3A1D2A5A2091718800D34117 /* ALRouterTests.xctest */,
+				3A1D2A652091718800D34117 /* ALRouterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A1D2A442091718700D34117 /* ALRouter */ = {
+			isa = PBXGroup;
+			children = (
+				3A1D2A77209171CE00D34117 /* ALRouter */,
+				3A1D2A452091718700D34117 /* AppDelegate.h */,
+				3A1D2A462091718700D34117 /* AppDelegate.m */,
+				3A1D2A482091718700D34117 /* ViewController.h */,
+				3A1D2A492091718700D34117 /* ViewController.m */,
+				3A1D2A842091739700D34117 /* GoodsListController.h */,
+				3A1D2A852091739700D34117 /* GoodsListController.m */,
+				3A1D2A80209172A600D34117 /* GoodsDetailController.h */,
+				3A1D2A81209172A600D34117 /* GoodsDetailController.m */,
+				3A1D2A88209176FD00D34117 /* ALRouterPrefixHeader.pch */,
+				3A1D2A4B2091718700D34117 /* Main.storyboard */,
+				3A1D2A4E2091718800D34117 /* Assets.xcassets */,
+				3A1D2A502091718800D34117 /* LaunchScreen.storyboard */,
+				3A1D2A532091718800D34117 /* Info.plist */,
+				3A1D2A542091718800D34117 /* main.m */,
+			);
+			path = ALRouter;
+			sourceTree = "<group>";
+		};
+		3A1D2A5D2091718800D34117 /* ALRouterTests */ = {
+			isa = PBXGroup;
+			children = (
+				3A1D2A5E2091718800D34117 /* ALRouterTests.m */,
+				3A1D2A602091718800D34117 /* Info.plist */,
+			);
+			path = ALRouterTests;
+			sourceTree = "<group>";
+		};
+		3A1D2A682091718800D34117 /* ALRouterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3A1D2A692091718800D34117 /* ALRouterUITests.m */,
+				3A1D2A6B2091718800D34117 /* Info.plist */,
+			);
+			path = ALRouterUITests;
+			sourceTree = "<group>";
+		};
+		3A1D2A77209171CE00D34117 /* ALRouter */ = {
+			isa = PBXGroup;
+			children = (
+				3A1D2A78209171CE00D34117 /* ALRouter.h */,
+				3A1D2A79209171CE00D34117 /* ALRouter.m */,
+				3A1D2A7B2091722C00D34117 /* ALRouter.plist */,
+			);
+			path = ALRouter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A1D2A412091718700D34117 /* ALRouter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A1D2A6E2091718800D34117 /* Build configuration list for PBXNativeTarget "ALRouter" */;
+			buildPhases = (
+				3A1D2A3E2091718700D34117 /* Sources */,
+				3A1D2A3F2091718700D34117 /* Frameworks */,
+				3A1D2A402091718700D34117 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ALRouter;
+			productName = ALRouter;
+			productReference = 3A1D2A422091718700D34117 /* ALRouter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3A1D2A592091718800D34117 /* ALRouterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A1D2A712091718800D34117 /* Build configuration list for PBXNativeTarget "ALRouterTests" */;
+			buildPhases = (
+				3A1D2A562091718800D34117 /* Sources */,
+				3A1D2A572091718800D34117 /* Frameworks */,
+				3A1D2A582091718800D34117 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A1D2A5C2091718800D34117 /* PBXTargetDependency */,
+			);
+			name = ALRouterTests;
+			productName = ALRouterTests;
+			productReference = 3A1D2A5A2091718800D34117 /* ALRouterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3A1D2A642091718800D34117 /* ALRouterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A1D2A742091718800D34117 /* Build configuration list for PBXNativeTarget "ALRouterUITests" */;
+			buildPhases = (
+				3A1D2A612091718800D34117 /* Sources */,
+				3A1D2A622091718800D34117 /* Frameworks */,
+				3A1D2A632091718800D34117 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A1D2A672091718800D34117 /* PBXTargetDependency */,
+			);
+			name = ALRouterUITests;
+			productName = ALRouterUITests;
+			productReference = 3A1D2A652091718800D34117 /* ALRouterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A1D2A3A2091718700D34117 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = hans;
+				TargetAttributes = {
+					3A1D2A412091718700D34117 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					3A1D2A592091718800D34117 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 3A1D2A412091718700D34117;
+					};
+					3A1D2A642091718800D34117 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 3A1D2A412091718700D34117;
+					};
+				};
+			};
+			buildConfigurationList = 3A1D2A3D2091718700D34117 /* Build configuration list for PBXProject "ALRouter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A1D2A392091718700D34117;
+			productRefGroup = 3A1D2A432091718700D34117 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A1D2A412091718700D34117 /* ALRouter */,
+				3A1D2A592091718800D34117 /* ALRouterTests */,
+				3A1D2A642091718800D34117 /* ALRouterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A1D2A402091718700D34117 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A1D2A522091718800D34117 /* LaunchScreen.storyboard in Resources */,
+				3A1D2A4F2091718800D34117 /* Assets.xcassets in Resources */,
+				3A1D2A7C2091722C00D34117 /* ALRouter.plist in Resources */,
+				3A1D2A4D2091718700D34117 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A1D2A582091718800D34117 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A1D2A632091718800D34117 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A1D2A3E2091718700D34117 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A1D2A4A2091718700D34117 /* ViewController.m in Sources */,
+				3A1D2A82209172A600D34117 /* GoodsDetailController.m in Sources */,
+				3A1D2A862091739700D34117 /* GoodsListController.m in Sources */,
+				3A1D2A552091718800D34117 /* main.m in Sources */,
+				3A1D2A472091718700D34117 /* AppDelegate.m in Sources */,
+				3A1D2A7A209171CE00D34117 /* ALRouter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A1D2A562091718800D34117 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A1D2A5F2091718800D34117 /* ALRouterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A1D2A612091718800D34117 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A1D2A6A2091718800D34117 /* ALRouterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A1D2A5C2091718800D34117 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A1D2A412091718700D34117 /* ALRouter */;
+			targetProxy = 3A1D2A5B2091718800D34117 /* PBXContainerItemProxy */;
+		};
+		3A1D2A672091718800D34117 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A1D2A412091718700D34117 /* ALRouter */;
+			targetProxy = 3A1D2A662091718800D34117 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3A1D2A4B2091718700D34117 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A1D2A4C2091718700D34117 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3A1D2A502091718800D34117 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A1D2A512091718800D34117 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A1D2A6C2091718800D34117 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3A1D2A6D2091718800D34117 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A1D2A6F2091718800D34117 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ALRouter/ALRouterPrefixHeader.pch;
+				INFOPLIST_FILE = ALRouter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hans.ALRouter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A1D2A702091718800D34117 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ALRouter/ALRouterPrefixHeader.pch;
+				INFOPLIST_FILE = ALRouter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hans.ALRouter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3A1D2A722091718800D34117 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ALRouterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hans.ALRouterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ALRouter.app/ALRouter";
+			};
+			name = Debug;
+		};
+		3A1D2A732091718800D34117 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ALRouterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hans.ALRouterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ALRouter.app/ALRouter";
+			};
+			name = Release;
+		};
+		3A1D2A752091718800D34117 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ALRouterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hans.ALRouterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ALRouter;
+			};
+			name = Debug;
+		};
+		3A1D2A762091718800D34117 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ALRouterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hans.ALRouterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ALRouter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A1D2A3D2091718700D34117 /* Build configuration list for PBXProject "ALRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A1D2A6C2091718800D34117 /* Debug */,
+				3A1D2A6D2091718800D34117 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A1D2A6E2091718800D34117 /* Build configuration list for PBXNativeTarget "ALRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A1D2A6F2091718800D34117 /* Debug */,
+				3A1D2A702091718800D34117 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A1D2A712091718800D34117 /* Build configuration list for PBXNativeTarget "ALRouterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A1D2A722091718800D34117 /* Debug */,
+				3A1D2A732091718800D34117 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A1D2A742091718800D34117 /* Build configuration list for PBXNativeTarget "ALRouterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A1D2A752091718800D34117 /* Debug */,
+				3A1D2A762091718800D34117 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A1D2A3A2091718700D34117 /* Project object */;
+}
