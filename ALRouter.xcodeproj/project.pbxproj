@@ -63,6 +63,7 @@
 		3A1D2A842091739700D34117 /* GoodsListController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoodsListController.h; sourceTree = "<group>"; };
 		3A1D2A852091739700D34117 /* GoodsListController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoodsListController.m; sourceTree = "<group>"; };
 		3A1D2A88209176FD00D34117 /* ALRouterPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALRouterPrefixHeader.pch; sourceTree = "<group>"; };
+		3A6BC45A209C550E00427A6C /* ALRouterHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALRouterHeader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +124,7 @@
 				3A1D2A80209172A600D34117 /* GoodsDetailController.h */,
 				3A1D2A81209172A600D34117 /* GoodsDetailController.m */,
 				3A1D2A88209176FD00D34117 /* ALRouterPrefixHeader.pch */,
+				3A6BC45A209C550E00427A6C /* ALRouterHeader.h */,
 				3A1D2A4B2091718700D34117 /* Main.storyboard */,
 				3A1D2A4E2091718800D34117 /* Assets.xcassets */,
 				3A1D2A502091718800D34117 /* LaunchScreen.storyboard */,
