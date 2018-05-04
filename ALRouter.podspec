@@ -39,7 +39,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT (ALRouter)"
+  s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -91,11 +91,10 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "ALRouter", "ALRouter/ALRouter/**/*.{h,m}"
+  s.source_files  = "ALRouter/ALRouter/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
 
-    s.public_header_files = "ALRouter/**/ALRouterHeader_h"
-    s.source_files = "ALRouter/**/ALRouterHeader_h"
+    s.public_header_files = "ALRouter/ALRouter/ALRouter.h"
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
